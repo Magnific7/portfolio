@@ -1,23 +1,26 @@
 .container{
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIVwH4LSxHguaMP1vGk0eA4EyuLoVL_0un4_6ipKRZkoMwmz9cAQ");
+  background-image: url("https://png.pngtree.com/thumb_back/fw800/back_pic/00/10/82/965635d78de24ce.jpg");
  background-repeat:no-repeat;
  background-size: cover;
  position: absolute;
  width:100%;
  height:100%;
- color:rgb(219, 204, 204);
+ color:rgba(243, 239, 241, 0.5);
  font-size: 16px;
  font-family: Arial, Helvetica, sans-serif;
 }
 #about{
   display:flex;
+  flex:right;
+  justify-content: space-evenly;
   font-size: 25px;
+
 }
 #home{
   font-size:40px;
 }
 .img{
-  border-radius: 70%;
+  border-radius: 20%;
 
 }
 nav {
@@ -42,10 +45,10 @@ nav ul li a {
   text-transform:lowercase;
   text-decoration: none;
   display: block;
-  color: rgb(67, 71, 52);
+  color: rgb(207, 211, 195);
 }
 
 nav>ul>li>a:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), insert 0 0 1px rgba(255, 255, 255, 0.6);
-  background: rgba(221, 109, 35, 0.678);
-  color: rgba(0, 35, 122, 0.7);
+  background: rgba(121, 77, 47, 0.678);
+  color: rgba(124, 133, 156, 0.7);
