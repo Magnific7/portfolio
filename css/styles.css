@@ -8,13 +8,16 @@
  color:rgba(243, 239, 241, 0.5);
  font-size: 16px;
  font-family: Arial, Helvetica, sans-serif;
+
 }
 #about{
   display:flex;
   flex:right;
   justify-content: space-evenly;
   font-size: 25px;
-
+}
+.content{
+  float: left;
 }
 #home{
   font-size:40px;
