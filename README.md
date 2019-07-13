@@ -7,7 +7,7 @@ and lastly it has platforms on which one can contact me and follow up with my ac
 ##Instructions
 None 
 ####GitHub
-link: 
+link: https://github.com/Magnific7/portfolio.git
 ###licence
 copyright2019
 by me  
