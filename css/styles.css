@@ -1,11 +1,8 @@
+body{
+  margin: 0px;
+}
 .container{
-  background-image: url("https://png.pngtree.com/thumb_back/fw800/back_pic/00/10/82/965635d78de24ce.jpg");
- background-repeat:no-repeat;
- background-size: cover;
- position: absolute;
- width:100%;
- height:100%;
- color:rgba(241, 241, 237, 0.952);
+ color:#000000;
  font-size: 16px;
  font-family:sans-serif;
 
@@ -27,10 +24,13 @@
 
 }
 nav {
-  max-width: 960px;
+  width: 100%; 
+  padding: 0;
   margin: 0 auto;
   padding: 10px 0;
   margin-right: 0%;
+  font-size: 20px;
+  position: fixed;
 }
 
 nav>ul {
@@ -48,13 +48,13 @@ nav ul li a {
   text-transform:lowercase;
   text-decoration: none;
   display: block;
-  color: rgb(207, 211, 195);
+  color: rgb(20, 20, 19);
 }
 
 nav>ul>li>a:hover {
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), insert 0 0 1px rgba(255, 255, 255, 0.6);
-  background: rgba(121, 77, 47, 0.678);
-  color: rgba(124, 133, 156, 0.7);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), insert 0 0 1px rgba(119, 109, 109, 0.6);
+  background: rgb(185, 141, 134, 0.4);
+  color: rgba(44, 42, 41, 0.4);
 }
   .pro{
     display:flex;
@@ -62,3 +62,5 @@ nav>ul>li>a:hover {
   .socialmedia{
     font-size: 30px;
   }
+
+ 
